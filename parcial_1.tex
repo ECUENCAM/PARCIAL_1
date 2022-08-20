@@ -1,0 +1,81 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+127.0.0.1 platzi_clon.web.local
+
+EDWIN GIOVANNY CUENCA MORENO
+GESTION DE DATOS
+PUJ – MAESTRIA IOT
+PARCIAL 1
+
+1.	¿Qué tipo de variables tiene el dataset? Detalle el tipo de variable de cada columna.
+
+•	Género: Cualitativa Ordinal
+•	Raza / Etnia: Cualitativa Ordinal
+•	Nivel de escolaridad de los padres: Cualitativa Ordinal
+•	Tipo de Alimentación: Cualitativa Ordinal
+•	Preparo el Examen: Cualitativa Ordinal
+•	Puntaje Matemáticas: Cuantitativa Discreto
+•	Puntaje Lectura: Cuantitativa Discreto
+•	Puntaje Escritura: Cuantitativa Discreto
+
+2.	¿Qué tipo de problemas de calidad de datos logra identificar? Defina e implemente las estrategias de limpieza de datos que correspondan.
+
+Se valido que no existen errores de formato o de escritura para cada una de las variables cargadas en el dataset, fue posible cargar sin ningún inconveniente dichos archivos en el software Knime. Con el fin de poder realizar un análisis un poco más practico, se procedió a realizar el cambio de las variables de tipo cualitativo a cuantitativo para “Raza /Etnia” y “Nivel de Escolaridad”.
+
+-	Normalización Raza / Etnia
+ 
+
+-	Normalización Niveles de Escolaridad
+ 
+
+
+
+
+
+
+
+
+
+3.	¿En qué asignatura en promedio los estudiantes obtuvieron un mejor puntaje? ¿Hay evidencia de algún sesgo en la distribución de dichos puntajes?
+
+
+La asignatura en la cual los estudiantes obtuvieron el mayor puntaje fue lectura con un promedio de 69.17, en comparación con escritura 68.05 y matemáticas 66.09:
+
+ 
+
+
+4.	 ¿Existe alguna correlación entre los puntajes obtenidos en las tres asignaturas?
+
+De acuerdo con el cálculo de correlación se evidencia que la mayor correlación se presenta entre las asignaturas lectura y escritura con un valor de 0.94
+
+ 
+
+
+
+
+
+5.	¿Hay alguna diferencia observable en los puntajes de la asignatura de matemáticas entre géneros? ¿Qué género obtuvo en promedio los mejores puntajes?
+
+Para los puntajes de matemáticas se evidencia que el género masculino obtuvo un puntaje superior al del género femenino de 68.73 y 63.63 respectivamente. El genero que obtuvo los mayores puntajes fue el genero femenino con un porcentaje de 69.57 respecto al genero masculino de 65.83
+
+ 
